@@ -8,8 +8,7 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <div class="site-heading">
                         <h1>Daftar Kursus Elmuna</h1>
-                        <span class="subheading">dibawah ini merupakan informasi <br> pendaftaran kursus di Elmuna
-                            Kebumen</span>
+                        <span class="subheading"></span>
                     </div>
                 </div>
             </div>

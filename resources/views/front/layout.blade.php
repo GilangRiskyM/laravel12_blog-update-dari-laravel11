@@ -21,6 +21,42 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="{{ url('/front/css/styles.css') }}" rel="stylesheet" />
     @stack('css')
+
+    <style>
+        .social-link {
+            text-decoration: none;
+            color: white;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            text-decoration: none;
+        }
+
+        /* Efek hover untuk icon */
+        .social-link:hover .fa-stack .fa-circle {
+            color: #0d6efd !important;
+            /* Bootstrap primary blue */
+        }
+
+        .social-link:hover .fa-stack .fa-inverse {
+            color: white !important;
+        }
+
+        /* Efek hover untuk text */
+        .social-link:hover {
+            color: #0d6efd !important;
+        }
+
+        /* Animasi beat untuk icon saat hover */
+        .social-link:hover .fa-stack {
+            animation: fa-beat 1s infinite;
+        }
+
+        footer {
+            font-family: poppins, sans-serif;
+        }
+    </style>
 </head>
 
 <body>
@@ -100,36 +136,166 @@
     @yield('content')
 
     <!-- Footer-->
-    <footer class="border-top">
+    <footer class="border-top bg-dark">
         <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item">
-                            {{-- <a href="#!">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a> --}}
-                        </li>
-                        <li class="list-inline-item">
-                            {{-- <a href="#!">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a> --}}
-                        </li>
-                        <li class="list-inline-item">
-                            {{-- <a href="#!">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a> --}}
-                        </li>
-                    </ul>
+            <div class="row gx-4 gx-lg-5 align-items-center justify-content-center">
+                <div class="col-md-6 col-lg-6 col-xl-6 align-items-center justify-content-center">
+                    <div class="row g-2 gy-3">
+
+                        <div class="col-md-6 col-lg-6 d-flex align-items-center ">
+                            <div class="flex-shrink-0">
+                                <a href="https://web.facebook.com/p/LKP-Elmuna-Kebumen-100054534726890/?_rdc=1&_rdr#"
+                                    target="_blank" class="social-link">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                        <i class="fab fa-facebook fa-stack-1x fa-inverse fa-xl"
+                                            style="color:#343A40"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <a href="https://web.facebook.com/p/LKP-Elmuna-Kebumen-100054534726890/?_rdc=1&_rdr#"
+                                    target="_blank" class="text-small social-link">elmuna institut</a>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6 col-lg-6 d-flex align-items-center ">
+                            <div class="flex-shrink-0">
+                                <a href="https://www.instagram.com/elmuna_institut/" target="_blank"
+                                    class="social-link">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x" style="color: white"></i>
+                                        <i class="fab fa-instagram fa-stack-1x fa-inverse fa-lg"
+                                            style="color:#343A40"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <a href="https://www.instagram.com/elmuna_institut/" target="_blank"
+                                    class="txt-small social-link">elmuna_institut</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 d-flex align-items-center ">
+                            <div class="flex-shrink-0">
+                                <a href="https://www.youtube.com/@elmunakebumen5576" target="_blank"
+                                    class="social-link">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                        <i class="fab fa-brand fa-youtube fa-stack-1x fa-inverse fa-lg"
+                                            style="color:#343A40"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <a href="https://www.youtube.com/@elmunakebumen5576" target="_blank"
+                                    class="text-small social-link">elmuna kebumen</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6 d-flex align-items-center ">
+                            <div class="flex-shrink-0">
+                                <a href="" target="_blank" class="social-link">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                        <i class="fab fa-brand fa-tiktok fa-stack-1x fa-inverse fa-lg"
+                                            style="color:#343A40"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="flex-grow-1 ms-3">
+                                <a href="https://www.tiktok.com/@elmuna_institut?_t=ZS-8wYonMuemy0&_r=1"
+                                    target="_blank" class="text-small social-link">@elmuna_institut</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="row">
+                                <div class="col md-3 col-lg-3">
+                                    <a href="https://maps.app.goo.gl/NFV1cNH1PzMXehqr8" class="social-link">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                            <i class="fa-solid fa-location-dot fa-stack-1x fa-inverse fa-lg"
+                                                style="color:#343A40"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col-md-9 col-lg-9">
+                                    <h5 class="text-light">Elmuna 1</h5>
+                                    <a href="https://maps.app.goo.gl/NFV1cNH1PzMXehqr8" target="_blank"
+                                        class="fs-6 text-small social-link">Jl.
+                                        Raya Soka Petanahan No. 10 Km.6 Plumbon Ds.Klegenwonosari, Kec. Klirong Kab.
+                                        Kebumen 54391 (Utara Polsek Klirong)</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6">
+                            <div class="row">
+                                <div class="col md-3 col-lg-3">
+                                    <a href="https://maps.app.goo.gl/cKjoD1mbbtvdy6t97" class="social-link">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                            <i class="fa-solid fa-location-dot fa-stack-1x fa-inverse fa-lg"
+                                                style="color:#343A40"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="col-md-9 col-lg-9">
+                                    <h5 class="text-light">Elmuna 2</h5>
+                                    <a href="https://maps.app.goo.gl/cKjoD1mbbtvdy6t97" target="_blank"
+                                        class="fs-6 text-small social-link">Jl. Tentara
+                                        Pelajar No. 37A Kel. Panjer, Kec. Kebumen Kab.Kebumen 54312 (Selatan Polres
+                                        Kebumen)</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6">
+                            <div class="row align-items-center">
+                                <div class="col md-3 col-lg-3">
+                                    <span class="social-link">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                            <i class="fab fa-brand fa-whatsapp fa-stack-1x fa-inverse fa-lg"
+                                                style="color:#343A40"></i>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="col-md-9 col-lg-9">
+                                    <a href="https://wa.me/6282134389173" target="_blank"
+                                        class="text-small social-link">0821-3438-9173</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-6">
+                            <div class="row align-items-center">
+                                <div class="col md-3 col-lg-3">
+                                    <span class="social-link">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                            <i class="fab fa-brand fa-whatsapp fa-stack-1x fa-inverse fa-lg"
+                                                style="color:#343A40"></i>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="col-md-9 col-lg-9">
+                                    <a href="https://wa.me/6282323362908" target="_blank"
+                                        class="text-small social-link">0823-2336-2908</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mt-4">
                     <div class="small text-center text-muted fst-italic">Copyright &copy; Elmuna
                         {{ date('Y') }}</div>
                 </div>

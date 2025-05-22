@@ -10,9 +10,7 @@
                         <h1>{{ $data->title }}</h1>
                         <h2 class="subheading">{{ $data->description }}</h2>
                         <span class="meta">
-                            Diposting oleh
-                            {{ $data->user->name }}
-                            pada {{ $data->created_at->isoFormat('dddd, D MMMM Y') }}
+                            {{--  --}}
                         </span>
                     </div>
                 </div>

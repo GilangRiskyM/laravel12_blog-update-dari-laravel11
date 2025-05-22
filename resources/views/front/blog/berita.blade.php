@@ -28,9 +28,7 @@
                             <h3 class="post-subtitle">{{ $datum->description }}</h3>
                         </a>
                         <p class="post-meta">
-                            Diposting oleh
-                            <a href="#!">{{ $datum->user->name }}</a>
-                            pada {{ $datum->created_at->isoFormat('dddd, D MMMM Y') }}
+                            Diposting pada {{ $datum->created_at->isoFormat('dddd, D MMMM Y') }}
                         </p>
                     </div>
                     <!-- Divider-->
