@@ -28,5 +28,6 @@ class AppServiceProvider extends ServiceProvider
         Paginator::useBootstrapFive();
         Gate::policy(Blog::class, BlogPolicy::class);
         Gate::policy(User::class, UserPolicy::class);
+        // \URL::forceScheme('https');
     }
 }
