@@ -7,17 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Elmuna Blog | @yield('title')</title>
+    <title> {{ config('app.name') }} | @yield('title')</title>
     <link rel="icon" href="{{ asset('img/icon1.png') }}" type="image/x-icon">
 
     {{-- bootstrap --}}
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-    <link href="/back/css/styles.css" rel="stylesheet" />
-    <script src="/back/js/scripts.js"></script>
+    <link rel="stylesheet" href="{{ url('/bootstrap-5.1.3-dist/css/bootstrap.min.css') }}">
+    <script src="{{ url('/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js') }}"></script>
+    <link href="{{ url('/back/css/styles.css') }}" rel="stylesheet" />
+    <script src="{{ url('/back/js/scripts.js') }}"></script>
 
     {{-- boxicons --}}
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
