@@ -217,7 +217,8 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="col md-3 col-lg-3">
-                                    <a href="https://maps.app.goo.gl/NFV1cNH1PzMXehqr8" class="social-link">
+                                    <a href="https://maps.app.goo.gl/NFV1cNH1PzMXehqr8" class="social-link"
+                                        target="_blank">
                                         <span class="fa-stack fa-lg">
                                             <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
                                             <i class="fa-solid fa-location-dot fa-stack-1x fa-inverse fa-lg"
@@ -238,7 +239,8 @@
                         <div class="col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="col md-3 col-lg-3">
-                                    <a href="https://maps.app.goo.gl/cKjoD1mbbtvdy6t97" class="social-link">
+                                    <a href="https://maps.app.goo.gl/cKjoD1mbbtvdy6t97" class="social-link"
+                                        target="_blank">
                                         <span class="fa-stack fa-lg">
                                             <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
                                             <i class="fa-solid fa-location-dot fa-stack-1x fa-inverse fa-lg"
@@ -260,11 +262,14 @@
                             <div class="row align-items-center">
                                 <div class="col md-3 col-lg-3">
                                     <span class="social-link">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
-                                            <i class="fab fa-brand fa-whatsapp fa-stack-1x fa-inverse fa-lg"
-                                                style="color:#343A40"></i>
-                                        </span>
+                                        <a href="https://wa.me/6282134389173" target="_blank"
+                                            rel="noopener noreferrer">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                                <i class="fab fa-brand fa-whatsapp fa-stack-1x fa-inverse fa-lg"
+                                                    style="color:#343A40"></i>
+                                            </span>
+                                        </a>
                                     </span>
                                 </div>
                                 <div class="col-md-9 col-lg-9">
@@ -278,11 +283,14 @@
                             <div class="row align-items-center">
                                 <div class="col md-3 col-lg-3">
                                     <span class="social-link">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
-                                            <i class="fab fa-brand fa-whatsapp fa-stack-1x fa-inverse fa-lg"
-                                                style="color:#343A40"></i>
-                                        </span>
+                                        <a href="https://wa.me/6282323362908" target="_blank"
+                                            rel="noopener noreferrer">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                                <i class="fab fa-brand fa-whatsapp fa-stack-1x fa-inverse fa-lg"
+                                                    style="color:#343A40"></i>
+                                            </span>
+                                        </a>
                                     </span>
                                 </div>
                                 <div class="col-md-9 col-lg-9">
