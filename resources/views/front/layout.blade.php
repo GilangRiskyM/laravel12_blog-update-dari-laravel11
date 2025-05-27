@@ -8,7 +8,7 @@
     <meta name="author" content="" />
     <title>{{ config('app.name') }} | @yield('title')</title>
     <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="icon" type="image/x-icon" href="{{ url('/img/icon1.png') }}" />
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
@@ -137,7 +137,7 @@
     <!-- Footer-->
     <footer class="border-top bg-dark">
         <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 align-items-center justify-content-center">
+            <div class="row gx-4 gx-lg-5 align-items-center justify-content-center mb-3">
                 <div class="col-md-6 col-lg-6 col-xl-6 align-items-center justify-content-center">
                     <div class="row g-2 gy-3">
 
