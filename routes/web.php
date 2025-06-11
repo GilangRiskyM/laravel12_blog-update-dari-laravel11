@@ -11,6 +11,11 @@ use App\Http\Controllers\Back\BlogController as BackBlogController;
 use App\Http\Controllers\Front\LandingPendaftaranController;
 use App\Http\Controllers\Front\PageController;
 
+//php info
+// Route::get('/info', function () {
+//     return phpinfo();
+// });
+
 // Front
 Route::get('/', [HomepagesController::class, 'index']);
 Route::get('/berita', [BlogController::class, 'index']);

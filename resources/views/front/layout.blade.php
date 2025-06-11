@@ -138,7 +138,7 @@
     <footer class="border-top bg-dark">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 align-items-center justify-content-center mb-3">
-                <div class="col-md-6 col-lg-6 col-xl-6 align-items-center justify-content-center">
+                <div class="col-md-12 col-lg-6 col-xl-6 align-items-center justify-content-center mb-3 mb-sm-3">
                     <div class="row g-2 gy-3">
 
                         <div class="col-md-6 col-lg-6 d-flex align-items-center ">
@@ -212,11 +212,11 @@
                 </div>
 
 
-                <div class="col-md-6 col-lg-6 col-xl-6">
+                <div class="col-md-12 col-lg-6 col-xl-6">
                     <div class="row">
-                        <div class="col-md-6 col-lg-6">
+                        <div class="col-md-6 col-lg-6 mb-3">
                             <div class="row">
-                                <div class="col md-3 col-lg-3">
+                                <div class="col-3 col-md-3 col-lg-3">
                                     <a href="https://maps.app.goo.gl/NFV1cNH1PzMXehqr8" class="social-link"
                                         target="_blank">
                                         <span class="fa-stack fa-lg">
@@ -226,7 +226,7 @@
                                         </span>
                                     </a>
                                 </div>
-                                <div class="col-md-9 col-lg-9">
+                                <div class="col-9 col-md-9 col-lg-9">
                                     <h5 class="text-light">Elmuna 1</h5>
                                     <a href="https://maps.app.goo.gl/NFV1cNH1PzMXehqr8" target="_blank"
                                         class="fs-6 text-small social-link">Jl.
@@ -234,11 +234,29 @@
                                         Kebumen 54391 (Utara Polsek Klirong)</a>
                                 </div>
                             </div>
+                            <div class="row  align-items-center d-sm-none d-md-none d-lg-none d-md-block d-lg-block">
+                                <div class="col-3 col-md-3 col-lg-3">
+                                    <span class="social-link">
+                                        <span class="fa-stack fa-lg">
+                                            <a href="https://wa.me/6282323362908" target="_blank"
+                                                rel="noopener noreferrer">
+                                                <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                                <i class="fab fa-brand fa-whatsapp fa-stack-1x fa-inverse fa-lg"
+                                                    style="color:#343A40"></i>
+                                            </a>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="col-9 col-md-9 col-lg-9">
+                                    <a href="https://wa.me/6282134389173" target="_blank"
+                                        class="text-small social-link">0821-3438-9173</a>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="col-md-6 col-lg-6">
                             <div class="row">
-                                <div class="col md-3 col-lg-3">
+                                <div class="col-3 col-md-3 col-lg-3">
                                     <a href="https://maps.app.goo.gl/cKjoD1mbbtvdy6t97" class="social-link"
                                         target="_blank">
                                         <span class="fa-stack fa-lg">
@@ -248,7 +266,7 @@
                                         </span>
                                     </a>
                                 </div>
-                                <div class="col-md-9 col-lg-9">
+                                <div class="col-9 col-md-9 col-lg-9">
                                     <h5 class="text-light">Elmuna 2</h5>
                                     <a href="https://maps.app.goo.gl/cKjoD1mbbtvdy6t97" target="_blank"
                                         class="fs-6 text-small social-link">Jl. Tentara
@@ -256,11 +274,29 @@
                                         Kebumen)</a>
                                 </div>
                             </div>
+                            <div class="row  align-items-center d-sm-none d-md-none d-lg-none d-md-block d-lg-block">
+                                <div class="col-3 col-md-3 col-lg-3">
+                                    <span class="social-link">
+                                        <span class="fa-stack fa-lg">
+                                            <a href="https://wa.me/6282323362908" target="_blank"
+                                                rel="noopener noreferrer">
+                                                <i class="fas fa-circle fa-stack-2x" style="color:white"></i>
+                                                <i class="fab fa-brand fa-whatsapp fa-stack-1x fa-inverse fa-lg"
+                                                    style="color:#343A40"></i>
+                                            </a>
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="col-9 col-md-9 col-lg-9">
+                                    <a href="https://wa.me/6282323362908" target="_blank"
+                                        class="text-small social-link">0823-2336-2908</a>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="col-md-6 col-lg-6">
+                        <div class="col-md-6 col-lg-6 d-none d-sm-block">
                             <div class="row align-items-center">
-                                <div class="col md-3 col-lg-3">
+                                <div class="col-3 col-md-3 col-lg-3">
                                     <span class="social-link">
                                         <a href="https://wa.me/6282134389173" target="_blank"
                                             rel="noopener noreferrer">
@@ -272,16 +308,16 @@
                                         </a>
                                     </span>
                                 </div>
-                                <div class="col-md-9 col-lg-9">
+                                <div class="col-9 col-md-9 col-lg-9">
                                     <a href="https://wa.me/6282134389173" target="_blank"
                                         class="text-small social-link">0821-3438-9173</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-md-6 col-lg-6">
+                        <div class="col-md-6 col-lg-6 d-none d-sm-block">
                             <div class="row align-items-center">
-                                <div class="col md-3 col-lg-3">
+                                <div class="col-md-3 col-lg-3">
                                     <span class="social-link">
                                         <a href="https://wa.me/6282323362908" target="_blank"
                                             rel="noopener noreferrer">

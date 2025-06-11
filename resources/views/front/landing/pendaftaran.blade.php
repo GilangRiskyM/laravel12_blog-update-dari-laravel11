@@ -21,11 +21,11 @@
             <div class="container bg-info rounded mb-3 shadow">
                 <div class="container p-2 p-md-2 p-sm-3 g-2">
                     <div class="row d-flex g-7 align-items-center">
-                        <div class="col-md-4 p-1 align-self-end">
+                        <div class="col-lg-4 p-1 align-self-end">
                             <img src="{{ asset('img/landing/gambar-atas-1.png') }}" class="card-img" style="width: 20rem"
                                 alt="" />
                         </div>
-                        <div class="col-md-4 p-1 align-self-center">
+                        <div class="col-lg-4 p-1 align-self-center">
                             <div class="container">
                                 <div id="carouselExampleInterval"
                                     class="carousel slide carousel-fade d-flex align-items-center" data-bs-ride="carousel"
@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 p-1 align-self-end">
+                        <div class="col-lg-4 p-1 align-self-end">
                             <img src="{{ asset('img/landing/gambar-atas-2.png') }}" class="card-img" style="width: 20rem"
                                 alt="" />
                         </div>
@@ -92,7 +92,7 @@
         <!-- Mengemudi -->
         <div class="container card-mengemudi rounded shadow-card-mengemudi mb-3">
             <div class="card mb-3 border border-0 card-mengemudi">
-                <div class="row g-0 d-flex align-items-center pt-3">
+                <div class="row g-0 g-md-2 d-flex align-items-center justify-content-md-center pt-3">
                     <div class="col-md-6">
                         <div id="Mengemudi" class="carousel slide carousel-container shadow rounded"
                             data-bs-ride="carousel">
@@ -122,8 +122,8 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="card-body text-center p-md-5 p-sm-1">
+                    <div class="col-md-12 col-lg-6">
+                        <div class="card-body text-center p-lg-5 p-md-3 p-sm-1">
                             <h2 class="card-title">"Siap Jadi Pengemudi Handal?"</h2>
                             <h5 class="card-text">
                                 Siap jalan-jalan dengan percaya diri? Daftar kursus mengemudi
@@ -137,7 +137,8 @@
                                 siap membantu Anda menguasai jalan raya. 🚗💨
                             </h5>
                             <p>
-                                <button class="btn btn-bd-blue">Daftar Sekarang</button>
+                                <a class="btn btn-bd-blue" href="https://pendaftaran.elmuna-kebumen.com/daftar_mengemudi"
+                                    target="_blank">Daftar Sekarang</a>
                             </p>
                         </div>
                     </div>
@@ -148,7 +149,8 @@
         <!-- Digital Marketing -->
         <div class="container card-digital-marketing rounded shadow-card-digital-marketing mb-3">
             <div class="card mb-3 border border-0 card-digital-marketing">
-                <div class="row g-0 d-flex flex-row-reverse align-items-center pt-3 pe-md-1">
+                <div
+                    class="row g-0 g-md-2 d-flex flex-row-reverse align-items-center justify-content-md-center pt-3 pe-md-1">
                     <div class="col-md-6">
                         <div id="DigitalMarketing" class="carousel slide carousel-container shadow rounded"
                             data-bs-ride="carousel">
@@ -179,7 +181,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="card-body text-center p-md-5 p-sm-1">
                             <h2 class="card-title">
                                 "Raih Kesuksesan Bisnis Anda dengan Kursus Digital Marketing!"
@@ -197,7 +199,9 @@
                                 bisnis Anda ke level berikutnya. 🚀📈
                             </h5>
                             <p>
-                                <button class="btn btn-bd-orange">Daftar Sekarang</button>
+                                <a class="btn btn-bd-orange"
+                                    href="https://pendaftaran.elmuna-kebumen.com/daftar_digital_marketing"
+                                    target="_blank">Daftar Sekarang</a>
                             </p>
                         </div>
                     </div>
@@ -208,7 +212,7 @@
         <!-- Bahasa Inggris -->
         <div class="container card-bahasa-inggris rounded shadow-card-bahasa-inggris mb-3">
             <div class="card mb-3 border border-0 card-bahasa-inggris">
-                <div class="row g-0 d-flex align-items-center pt-3">
+                <div class="row g-0 g-md-2 d-flex align-items-center justify-content-md-center pt-3">
                     <div class="col-md-6">
                         <div id="BahasaInggris" class="carousel slide carousel-container shadow rounded"
                             data-bs-ride="carousel">
@@ -238,7 +242,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="card-body text-center p-md-5 p-sm-1">
                             <h2 class="card-title">
                                 "Buka Pintu Kesempatan dengan Menguasai Bahasa Inggris!"
@@ -256,7 +260,9 @@
                                 efektif. 🌍📚
                             </h5>
                             <p>
-                                <button class="btn btn-bd-green">Daftar Sekarang</button>
+                                <a class="btn btn-bd-green"
+                                    href="https://pendaftaran.elmuna-kebumen.com/daftar_bahasa_inggris"
+                                    target="_blank">Daftar Sekarang</a>
                             </p>
                         </div>
                     </div>
@@ -273,7 +279,8 @@
         <!-- Desain Grafis -->
         <div class="container card-desain-grafis rounded shadow-card-desain-grafis mb-3">
             <div class="card mb-3 border border-0 card-desain-grafis">
-                <div class="row g-0 d-flex flex-row-reverse align-items-center pt-3 pe-md-1">
+                <div
+                    class="row g-0 g-md-2 d-flex flex-row-reverse align-items-center justify-content-md-center pt-3 pe-md-1">
                     <div class="col-md-6">
                         <div id="DesainGrafis" class="carousel slide carousel-container shadow rounded"
                             data-bs-ride="carousel">
@@ -303,7 +310,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="card-body text-center p-md-5 p-sm-1">
                             <h2 class="card-title">
                                 "Buat Karya Visual Menakjubkan dengan Kursus Desain Grafis!"
@@ -321,7 +328,9 @@
                                 portofolio yang menonjol. 🎨💻
                             </h5>
                             <p>
-                                <button class="btn btn-bd-green-teal">Daftar Sekarang</button>
+                                <a class="btn btn-bd-green-teal"
+                                    href="https://pendaftaran.elmuna-kebumen.com/daftar_desain_grafis"
+                                    target="_blank">Daftar Sekarang</a>
                             </p>
                         </div>
                     </div>
@@ -332,7 +341,7 @@
         <!-- Komputer -->
         <div class="container card-komputer rounded shadow-card-komputer mb-3">
             <div class="card mb-3 border border-0 card-komputer">
-                <div class="row g-0 d-flex align-items-center pt-3">
+                <div class="row g-0 g-md-2 d-flex align-items-center justify-content-md-center pt-3">
                     <div class="col-md-6">
                         <div id="Komputer" class="carousel slide carousel-container shadow rounded"
                             data-bs-ride="carousel">
@@ -362,7 +371,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="card-body text-center p-md-5 p-sm-1">
                             <h2 class="card-title">
                                 "Kuasai MS Office dan Tingkatkan Produktivitas Anda!"
@@ -379,7 +388,8 @@
                                 akan mendukung kesuksesan karier dan pekerjaan Anda. 💻📊
                             </h5>
                             <p>
-                                <button class="btn btn-bd-blue">Daftar Sekarang</button>
+                                <a class="btn btn-bd-blue" href="https://pendaftaran.elmuna-kebumen.com/daftar_komputer"
+                                    target="_blank">Daftar Sekarang</a>
                             </p>
                         </div>
                     </div>
@@ -390,7 +400,8 @@
         <!-- Pemrograman -->
         <div class="container card-pemrograman rounded shadow-card-pemrograman mb-3">
             <div class="card mb-3 border border-0 card-pemrograman">
-                <div class="row g-0 d-flex flex-row-reverse align-items-center pt-3 pe-md-1">
+                <div
+                    class="row g-0 g-md-2 d-flex flex-row-reverse align-items-center justify-content-md-center pt-3 pe-md-1">
                     <div class="col-md-6">
                         <div id="Pemrograman" class="carousel slide carousel-container shadow rounded"
                             data-bs-ride="carousel">
@@ -420,7 +431,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="card-body text-center p-md-5 p-sm-1">
                             <h2 class="card-title">
                                 "Buat Website Keren dengan Kursus Pemrograman Web!"
@@ -437,7 +448,9 @@
                                 untuk menciptakan website profesional. 🌐💻
                             </h5>
                             <p>
-                                <button class="btn btn-bd-purple">Daftar Sekarang</button>
+                                <a class="btn btn-bd-purple"
+                                    href="https://pendaftaran.elmuna-kebumen.com/daftar_pemrograman"
+                                    target="_blank">Daftar Sekarang</a>
                             </p>
                         </div>
                     </div>
@@ -454,7 +467,7 @@
         <!-- Video Editing dan Fotografi -->
         <div class="container card-video-editing-fotografi rounded shadow-card-video-editing-fotografi mb-3">
             <div class="card mb-3 border border-0 card-video-editing-fotografi">
-                <div class="row g-0 d-flex align-items-center pt-3">
+                <div class="row g-0 g-md-2 d-flex align-items-center justify-content-md-center pt-3">
                     <div class="col-md-6">
                         <div id="VideoEditingFotografi" class="carousel slide carousel-container shadow rounded"
                             data-bs-ride="carousel">
@@ -484,7 +497,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-12 col-lg-6">
                         <div class="card-body text-center p-md-5 p-sm-1">
                             <h2 class="card-title">
                                 "Kuasai Seni Video Editing dan Fotografi!"
@@ -501,7 +514,9 @@
                                 menginspirasi, dari pemula hingga profesional. 🎥📸
                             </h5>
                             <p>
-                                <button class="btn btn-bd-orange-red">Daftar Sekarang</button>
+                                <a class="btn btn-bd-orange-red"
+                                    href="https://pendaftaran.elmuna-kebumen.com/daftar_video_editing_fotografi"
+                                    target="_blank">Daftar Sekarang</a>
                             </p>
                         </div>
                     </div>
